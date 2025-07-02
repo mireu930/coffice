@@ -133,7 +133,7 @@ public class DocumentController {
 			}
 			
 		} else if(docuVO.getWriterId().equals(sessionUser.getUserId())) {
-			kindMessage = "결재 > 기안 문서";
+			kindMessage = "결재 > 작성한 문서";
 			docuKind = "online";
 			
 		} else {

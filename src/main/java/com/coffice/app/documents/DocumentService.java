@@ -170,7 +170,7 @@ public class DocumentService {
 			//System.out.println("page : " + map.get("page"));
 			
 			list = documentDAO.getListLine(map);			
-			kind = "결재 > 기안 문서함";
+			kind = "결재 > 작성한 문서함";
 			docuKind = "online";
 			break;
 		
@@ -239,7 +239,7 @@ public class DocumentService {
 			map.put("page", pager.getPage());
 			
 			list = documentDAO.getListLine(map);
-			kind = "결재 > 기안 문서함";
+			kind = "결재 > 작성한 문서함";
 			docuKind = "online";
 		}
 		

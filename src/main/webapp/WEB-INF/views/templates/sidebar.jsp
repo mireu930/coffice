@@ -52,7 +52,7 @@
 				<a class="collapse-item ${docuKind == 'write' ? 'active' : ''}" 
 				data-toggle="modal" data-target="#formMenu" href="#" id="btn-formmenu" >기안 작성
 				</a> 
-				<a class="collapse-item ${docuKind == 'online' ? 'active' : ''}" href="/document/list/online">기안 문서함</a>
+				<a class="collapse-item ${docuKind == 'online' ? 'active' : ''}" href="/document/list/online">작성한 문서함</a>
 				<a class="collapse-item ${docuKind == 'onwaiting' ? 'active' : ''}" href="/document/list/onwaiting">결재 대기 문서함</a>
 				<a class="collapse-item ${docuKind == 'onreference' ? 'active' : ''}" href="/document/list/onreference">참조 문서함</a> 
 				<a class="collapse-item ${docuKind == 'handled' ? 'active' : ''}" href="/document/list/handled">승인/반려 문서함</a> 
